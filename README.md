@@ -28,7 +28,7 @@ Depois do seu setup você precisará seguir as seguintes instruções, para cons
 2. Escolha alguma área do layout e carregue dados dinâmicos que estão no wordpress.
 3. Lembre-se, o foco do teste é seus conhecimentos de wordpress, organização e qualidade do código. Não queremos que deixe todo o layout dinâmico. 
 4. Submeta o Pull Request e responda o email enviado pelo responsável da vaga informando que finalizou. 
-5. Agora relaxe vamos tomar um suco/café! :D
+5. Agora relaxe e aguarde o retorno para tomarmos um suco/café! :D
 
 ### Requisitos extras 
 1. SEO
