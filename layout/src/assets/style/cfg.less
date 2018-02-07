@@ -1,0 +1,102 @@
+/* FONT FAMILY */
+
+@fontPoppins:			"Poppins", sans-serif;
+@fontArchivo:			"Archivo Narrow", sans-serif;
+
+/* FONT SIZE */
+
+@fontBaseSize:			10px;
+
+/* FONT WEIGHT */
+
+@fontWeightLight:		300;
+@fontWeightRegular:		400;
+@fontWeightMedium:		500;
+@fontWeightSemiBold:	600;
+@fontWeightBold:		700;
+
+/* COLOR PALETE */
+
+@colorBackground:		#fff;
+@colorAdvBackground:	#eee;
+@colorAdvBorder:		#ccc;
+
+@colorTxtDefault:		#242424;
+
+@colorTxtBlue:			#043f74;
+@colorTxtLightBlue:		#246cae;
+@colorTxtGreen:			#00a85b;
+@colorTxtOrange:		#f15500;
+@colorTxtGrey:			#5b5b5b;
+@colorTxtMediumGrey:	#888;
+@colorTxtDarkGrey:		#333;
+@colorTxtLightGrey:		#c5c5c5;
+@colorTxtWhite:			#fff;
+
+/* PATH */
+
+@pathMedia:				'../media';
+@pathFonts:				'../fonts';
+
+/* MIXINS */
+
+.mixin-has-layout () {
+	display: block;
+	clear: both;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+.mixin-negative-identation () {
+	text-indent: -9999em;
+	overflow: hidden;
+	color: transparent;
+	font-size: 0;
+}
+
+.mixin-font-style-footer (@style: normal, @align: left, @transform: none) {
+	font-size: 1.7em;
+	line-height: 1.6em;
+	font-style: @style;
+	font-family: @fontPoppins;
+	font-weight: @fontWeightMedium;
+	text-align: @align;
+	text-transform: @transform;
+	color: @colorTxtMediumGrey;
+}
+
+.mixin-font-style-title-1 (@size: 2.6em, @height: 1.4em) {
+	font-size: @size;
+	line-height: @height;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+	color: @colorTxtBlue;
+}
+
+.mixin-font-style-title-2 (@size: 1.4em, @height: 1.4em, @transform: uppercase) {
+	font-size: @size;
+	line-height: @height;
+	font-family: @fontPoppins;
+	font-weight: @fontWeightSemiBold;
+	color: @colorTxtOrange;
+	text-transform: @transform;
+}
+
+.mixin-font-style-title-3 (@size: 2.0em, @height: 1.2em, @transform: uppercase) {
+	font-size: @size;
+	font-family: @fontPoppins;
+	font-weight: @fontWeightSemiBold;
+	color: @colorTxtBlue;
+	line-height: @height;
+	text-transform: @transform;
+}
+
+.mixin-font-style-title-4 (@size: 1.4em, @height: 1.4em, @transform: uppercase) {
+	font-size: @size;
+	font-family: @fontPoppins;
+	font-weight: @fontWeightSemiBold;
+	color: @colorTxtDarkGrey;
+	line-height: @height;
+	text-transform: @transform;
+}

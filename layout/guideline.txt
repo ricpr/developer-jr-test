@@ -1,0 +1,47 @@
+Poppins SemiBold: Ao vivo, Editoria home, abas
+
+Poppins Medium: Legenda noticias da home, chapeu card home, chapeu pub editorial home, numero itens aba, chapeu colunistas, texto newsletter, texto input newsletter, btn ok newsletter, rodape
+
+ArchivoNarrow Bold: Titulo home, titulo card home, titulo destaques gradient, titulo noticia mapa, titulo item abas, titulo colunistas, titulo signos horoscopo
+
+ArchivoNarrow Regular: Sub item home
+
+noticias: #043f74
+esporte: #00a85b
+entretenimento: #f15500
+noticias perto de voce: #242424
+aba inativa:#cdcdcd
+texto colunistas: #656565
+shopping: #5b5b5b
+texto newsletter: #4a4a4a
+input newsletter: #777777
+rodape: #7f7f7f
+signos horoscopo: #4c4c4c
+numero abas: #819fb9
+
+- - - - - - - - - - - - - - - - - - - -
+
+Poppins font:
+
+light 300
+regular 400
+medium 500
+semi-bold 600
+bold 700
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+
+font-family: "Poppins", sans-serif;
+
+- - - - - - - - - - - - - - - - - - - -
+
+Archivo Narrow
+
+regular 400
+regular 400 Italic
+bold 700
+bold 700 Italic
+
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+font-family: "Archivo Narrow", sans-serif;

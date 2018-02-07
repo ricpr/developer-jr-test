@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<filter id="dropShadow">
+		<feGaussianBlur fill-opacity="0.5" in="SourceAlpha" stdDeviation="10" />
+		<feOffset dx="0" dy="0" />
+		<feColorMatrix in="the-shadow" result="color-out" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .2 0"/>
+		<feMerge>
+			<feMergeNode />
+			<feMergeNode in="SourceGraphic" />
+		</feMerge>
+	</filter>
+	<g>
+		<circle filter="url(#dropShadow)" cx="256" cy="256" stroke-width="15" stroke="#fff" fill="none" r="147.0"/>
+	</g>
+	<g>
+		<path filter="url(#dropShadow)" d="M332.461,253.354c2.858,1.65,2.858,4.35,0,6l-112.094,64.717c-2.858,1.65-5.196,0.3-5.196-3V191.636 c0-3.3,2.338-4.65,5.196-3L332.461,253.354z" fill="#fff"/>
+	</g>
+</svg>

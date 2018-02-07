@@ -1,0 +1,115 @@
+.video-section-list .adv-2 {
+	margin-bottom: 20px;
+}
+
+#widget-ric-play {
+	margin: 0 0 20px 0;
+}
+
+#widget-ric-play > header {
+
+}
+
+#widget-ric-play > header .title-7 {
+	font-size: 2.4em;
+	margin-bottom: 15px;
+}
+
+.title-ric-play {
+	background: url("@{pathMedia}/lbl-ric-play.png") center center no-repeat;
+	background-size: auto 67px;
+	height: 92px;
+}
+
+.section-list .title-ric-play {
+	background-position: center center;
+}
+
+.section-list .label.ric-play {
+	padding: 10px 0 0 0;
+}
+
+#widget-ric-play ul {
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;*/
+	width: 940px;
+}
+
+#widget-ric-play li {
+	/*flex-grow: 0;*/
+	width: 248px;
+	margin-left: 13px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#widget-ric-play li, .card-video {
+	position: relative;
+}
+
+.card-video {
+	margin-bottom: 15px;
+}
+
+#widget-ric-play li:first-child {
+	flex-grow: 0;
+	width: 418px;
+	margin-left: 0;
+}
+
+#widget-ric-play a, .card-video a {
+	display: block;
+	color: @colorTxtWhite;
+}
+
+#widget-ric-play figcaption, .card-video figcaption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url("@{pathMedia}/ico-play.svg"), linear-gradient(to top, rgba(4, 63, 116, 1.0), rgba(4, 63, 116, 0));
+	background-position: center top, left top;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 80px, 100%;
+}
+
+#widget-ric-play li:first-child figcaption, .card-video figcaption {
+	background-position: center 40%, left top;
+	background-size: 112px, 100%;
+}
+
+#widget-ric-play figcaption h2, .card-video figcaption h2 {
+	position: absolute;
+	bottom: 0;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+	font-size: 1.3em;
+	line-height: 1.2em;
+	padding: 10px;
+}
+
+.card-video figcaption h2 {
+	font-size: 2.0em;
+}
+
+#widget-ric-play li:first-child figcaption h2 {
+	font-size: 2.2em;
+}
+
+#widget-ric-play li img, .card-video img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.title-ric-play {
+	.mixin-negative-identation;
+}
+
+#widget-ric-play ul:after {
+	.mixin-has-layout;
+}

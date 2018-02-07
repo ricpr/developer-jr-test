@@ -1,0 +1,206 @@
+#widget-blogs-and-partners {
+	margin-bottom: 15px;
+	padding: 20px 25px;
+	border: solid 1px @colorTxtLightGrey;
+	position: relative;
+}
+
+#widget-blogs-and-partners > div {
+	width: 270px;
+	float: left;
+}
+
+#widget-blogs-and-partners > div + div {
+	width: 290px;
+	float: right;
+}
+
+#widget-blogs-and-partners > div > h3 {
+	font-size: 2.3em;
+	line-height: 1.0em;
+	font-weight: @fontWeightSemiBold;
+	color: @colorTxtDarkGrey;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#widget-blogs-and-partners > div h4 {
+	font-size: 1.4em;
+	line-height: 1.0em;
+	font-weight: @fontWeightSemiBold;
+	color: @colorTxtGrey;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#widget-blogs-and-partners-nav {
+	margin: 0 auto;
+	height: 21px;
+}
+
+#widget-blogs-and-partners-nav {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+#widget-blogs-and-partners-nav, #widget-blogs-and-partners-nav > ol {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#widget-blogs-and-partners-nav > a {
+	width: 24px;
+	height: 24px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-image: url("@{pathMedia}/ico-arrow-0.svg");
+}
+
+#widget-blogs-and-partners-nav-prev {
+	float: left;
+	transform: rotate(180deg);
+}
+
+#widget-blogs-and-partners-nav-next {
+	float: right;
+}
+
+#widget-blogs-and-partners-nav ol {
+	list-style-type: none;
+	padding: 6px 13px 0 13px;
+}
+
+#widget-blogs-and-partners-nav li {
+	float: left;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: @colorTxtLightGrey;
+	margin-left: 5px;
+}
+
+#widget-blogs-and-partners-nav li:first-child {
+	margin-left: 0;
+}
+
+#widget-blogs-and-partners-nav li.active {
+	background: @colorTxtDarkGrey;
+}
+
+#widget-blogs-and-partners-list {
+	width: 270px;
+	margin-bottom: 20px;
+}
+
+#widget-blogs-and-partners-list li {
+	margin-bottom: 16px;
+	display: none;
+}
+
+#widget-blogs-and-partners-list li.active {
+	display: block;
+}
+
+#widget-blogs-and-partners-list figure {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+#widget-blogs-and-partners-list img {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+}
+
+#widget-blogs-and-partners-list figure a {
+	display: block;
+}
+
+#widget-blogs-and-partners-list address {
+	font-size: 1.8em;
+	font-weight: @fontWeightSemiBold;
+	font-family: @fontArchivo;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+
+#widget-blogs-and-partners-list h3 {
+	font-size: 1.3em;
+	font-weight: @fontWeightMedium;
+	font-family: @fontArchivo;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+
+#widget-blogs-and-partners-list h3, #widget-blogs-and-partners-list h3 a, #widget-blogs-and-partners-list address, #widget-blogs-and-partners-list address a {
+	color: @colorTxtOrange;
+}
+
+#widget-blogs-and-partners-list h2 {
+	clear: both;
+	font-size: 2.5em;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+	line-height: 1.2em;
+}
+
+#widget-blogs-and-partners-list h2, #widget-blogs-and-partners-list h2 a {
+	color: @colorTxtGrey;
+}
+
+#widget-blogs-and-partners-list-aside {
+	padding-left: 20px;
+	border-left: solid 1px #ccc;
+}
+
+#widget-blogs-and-partners-list-aside li {
+	margin-bottom: 12px;
+}
+
+#widget-blogs-and-partners-list-aside figure {
+	float: left;
+	margin: 0 12px 0 0;
+}
+
+#widget-blogs-and-partners-list-aside img {
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+}
+
+#widget-blogs-and-partners-list-aside figure a {
+	display: block;
+}
+
+#widget-blogs-and-partners-list-aside address {
+	font-size: 1.2em;
+	font-weight: @fontWeightSemiBold;
+	font-family: @fontArchivo;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+
+#widget-blogs-and-partners-list-aside address, #widget-blogs-and-partners-list-aside address a {
+	color: @colorTxtOrange;
+}
+
+#widget-blogs-and-partners-list-aside h2 {
+	font-size: 1.7em;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+	line-height: 1.2em;
+}
+
+#widget-blogs-and-partners-list-aside h2, #widget-blogs-and-partners-list-aside h2 a {
+	color: @colorTxtGrey;
+}
+
+#widget-blogs-and-partners-nav > a, #widget-blogs-and-partners-nav li {
+	.mixin-negative-identation;
+}
+
+#widget-blogs-and-partners:after, #widget-blogs-and-partners-nav:after, #widget-blogs-and-partners-list li:after, #widget-blogs-and-partners-list-aside li:after {
+	.mixin-has-layout;
+}

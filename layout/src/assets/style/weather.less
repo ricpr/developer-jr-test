@@ -1,0 +1,92 @@
+@import "cfg.less";
+
+#weather-list {
+	margin: 0 15px 15px 15px;
+	padding-bottom: 20px;
+}
+
+#weather-list li {
+	border-top: solid 1px @colorTxtMediumGrey;
+	padding: 20px 26px 0 26px;
+	margin: 0 0 20px 0;
+	height: 52px;
+	position: relative;
+}
+
+#weather-list li:first-child {
+	border-top: 0;
+}
+
+#weather-list time, #weather-list var, #weather-list img, #weather-list figcaption {
+	position: absolute;
+}
+
+#weather-list time {
+	left: 26px;
+	top: 25px;
+	color: @colorTxtBlue;
+	font-size: 2.2em;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+}
+
+#weather-list li:first-child time {
+	font-size: 3.3em;
+	top: 15px;
+}
+
+#weather-list img {
+	width: 65px;
+	height: auto;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 0%);
+}
+
+#weather-list figcaption {
+	left: 26px;
+	bottom: 0px;
+	color: @colorTxtMediumGrey;
+	font-size: 1.2em;
+	font-weight: @fontWeightSemiBold;
+}
+
+#weather-list var {
+	display: block;
+	right: 0;
+	width: 92px;
+	font-size: 1.7em;
+	line-height: 20px;
+	color: @colorTxtMediumGrey;
+	font-weight: @fontWeightSemiBold;
+}
+
+#weather-list var small {
+	display: inline-block;
+	width: 50px;
+	float: right;
+	font-size: 0.7em;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.weather-min {
+	top: 20px;
+}
+
+.weather-max {
+	bottom: 0px;
+}
+
+#weather-list var:after {
+	.mixin-has-layout;
+}
+
+.weather-content .title-6 {
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
+.weather-content .widget-form {
+	margin-bottom: 0;
+}

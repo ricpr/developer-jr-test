@@ -1,0 +1,264 @@
+@import "cfg.less";
+
+.section-content #widget-social-share {
+	margin-bottom: 15px;
+}
+
+.section-content {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.section-content > .adv-1, .section-content > .adv-2 {
+	padding: 20px 0 0 0;
+	border-bottom: 0;
+	margin: 0;
+}
+
+.section-content > header {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.section-content > header p {
+	font-size: 1.7em;
+	font-weight: @fontWeightMedium;
+	line-height: 1.4em;
+	text-align: center;
+	color: @colorTxtDarkGrey;
+}
+
+.section-content > header address {
+	display: block;
+}
+
+.section-content > header address, .section-content > header time, .section-content > header var {
+	display: inline-block;
+	font-size: 1.4em;
+	font-weight: @fontWeightMedium;
+	line-height: 1.4em;
+	text-align: center;
+	color: @colorTxtMediumGrey;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.section-content > header time, .section-content > header var {
+	padding-left: 27px;
+	background: url("@{pathMedia}/blt-2.png") 9px center no-repeat;
+}
+
+.section-content #content {
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.section-content #content.active {
+	max-height: initial;
+}
+
+#btn-continue-reading {
+	display: block;
+	width: 216px;
+	height: 43px;
+	margin: 0 auto;
+	background: url("@{pathMedia}/btn-continue-reading.png") center center no-repeat;
+	background-size: contain;
+}
+
+.section-content > footer {
+	position: relative;
+	padding: 65px 0 25px 0;
+	border-bottom: solid 1px @colorTxtMediumGrey;
+	background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 70px, rgba(255, 255, 255, 0));
+	margin-bottom: 20px;
+	margin-top: -130px;
+}
+
+.content-area {
+	width: 840px;
+	margin: 0 auto;
+}
+
+.content-area > p {
+	max-width: 710px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content-area > figure {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.content-area > figure img {
+	width: 100%;
+	height: auto;
+}
+
+.content-area > figure figcaption {
+	font-size: 1.3em;
+	line-height: 1.4em;
+	padding: 5px 0;
+	color: @colorTxtMediumGrey;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: @fontWeightBold;
+	margin: 0 0 20px 0;
+	font-family: @fontArchivo;
+}
+
+.content-area > figure figcaption p {
+	margin: 0;
+	color: @colorTxtMediumGrey;
+}
+
+.content-area > p {
+	font-size: 1.9em;
+	line-height: 1.8em;
+	margin-bottom: 1.5em;
+	color: @colorTxtDarkGrey;
+}
+
+.content-area > p a {
+	color: #1958ad;
+	text-decoration: underline;
+}
+
+.content-area > p:first-of-type:first-letter {
+	font-size: 3.6em;
+	line-height: 1.0em;
+	float: left;
+	display: block;
+	margin: 0 20px 0 0;
+	text-transform: uppercase;
+}
+
+.content-area .intertitle-1, .content-area .intertitle-2 {
+	color: @colorTxtDarkGrey;
+	font-weight: @fontWeightSemiBold;
+	margin: 0 15px 10px 15px;
+}
+
+.content-area .intertitle-1 {
+	font-size: 3.7em;
+}
+
+.content-area .intertitle-2 {
+	font-size: 1.9em;
+}
+
+.content-area > blockquote {
+	font-family: @fontArchivo;
+	font-size: 4.4em;
+	font-weight: @fontWeightBold;
+	margin: 0 15px 15px 15px;
+	color: @colorTxtDarkGrey;
+}
+
+.content-area .adv-3, .content-area .adv-4 {
+	float: right;
+	margin: 0 0 0 40px;
+}
+
+.section-content .content-more {
+	width: 650px;
+	margin: 0 auto 40px auto;
+	border-bottom: solid 1px @colorTxtLightGrey;
+}
+
+.interview {
+	width: 650px;
+	margin: 0 auto;
+}
+
+#frm-promo {
+	margin: 0 15px;
+}
+
+#frm-promo h3 {
+	font-size: 1.9em;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	font-weight: @fontWeightSemiBold;
+	margin-bottom: 1.0em;
+	color: @colorTxtDarkGrey;
+}
+
+#frm-promo fieldset {
+	margin: 0 0 20px 0;
+}
+
+#btn-continue-reading {
+	.mixin-negative-identation;
+}
+
+.player-video {
+	width: 940px;
+	margin: 0 auto 40px auto;
+	padding: 0 0 40px 0;
+	border-bottom: solid 1px #ccc;
+}
+
+.player-video video {
+	display: block;
+	width: 830px;
+	margin: 0 auto;
+}
+
+.widget-read-more-inner {
+	float: right;
+	width: 300px;
+	margin: 0 0 20px 40px;
+	border-left: solid 4px #d8d8d8;
+	padding-left: 23px;
+}
+
+.widget-read-more-inner > header h2 {
+	font-size: 1.8em;
+	color: @colorTxtDarkGrey;
+	font-weight: @fontWeightMedium;
+	text-transform: uppercase;
+	margin: 0 0 19px 0;
+}
+
+.widget-read-more-inner li {
+	padding-top: 20px;
+	margin-bottom: 7px;
+}
+
+.widget-read-more-inner li:first-child {
+	padding-top: 0;
+}
+
+.widget-read-more-inner figure {
+	float: left;
+	width: 84px;
+	margin: 0 13px 0 0;
+}
+
+.widget-read-more-inner li:after {
+	.mixin-has-layout;
+}
+
+.widget-read-more-inner li h4, .widget-read-more-inner li h4 a {
+	color: @colorTxtMediumGrey;
+}
+
+.widget-read-more-inner li h4 {
+	font-size: 1.2em;
+	font-weight: @fontWeightMedium;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+}
+
+.widget-read-more-inner li h2, .widget-read-more-inner li h2 a {
+	color: @colorTxtBlue;
+}
+
+.widget-read-more-inner li h2 {
+	font-size: 1.7em;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+}

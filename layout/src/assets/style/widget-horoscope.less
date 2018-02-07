@@ -1,0 +1,246 @@
+#horoscope-list {
+	overflow: visible;
+	height: 90px;
+	margin-bottom: 40px;
+}
+
+#horoscope-list {
+	border-bottom: solid 1px @colorTxtMediumGrey;
+}
+
+#widget-horoscope {
+	height: 98px;
+	position: relative;
+	margin-bottom: 20px;
+	border: solid 1px @colorTxtMediumGrey;
+}
+
+#widget-horoscope > header, #widget-horoscope > div {
+	margin-left: 0;
+	margin-right: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+#widget-horoscope > header {
+	width: 194px;
+	left: 0;
+}
+
+#widget-horoscope > div {
+	width: 756px;
+	right: 8px;
+}
+
+#widget-horoscope h3 {
+	font-size: 2.3em;
+	line-height: 1.0em;
+	font-weight: @fontWeightSemiBold;
+	text-transform: uppercase;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: @colorTxtBlue;
+}
+
+#widget-horoscope header {
+	padding: 20px 0;
+}
+
+#widget-horoscope ul, #horoscope-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#widget-horoscope ul {
+	width: 756px;
+	flex-wrap: nowrap;
+}
+
+#widget-horoscope li {
+	width: 63px;
+	flex-grow: 0;
+}
+
+#horoscope-list li {
+	flex-grow: 1;
+	padding-bottom: 0;
+	height: 103px;
+}
+
+#horoscope-list li.active {
+	background: url("@{pathMedia}/arrow-down.png") center bottom no-repeat;
+}
+
+#widget-horoscope li, #widget-horoscope li a, #horoscope-list li, #horoscope-list a {
+	color: @colorTxtGrey;
+}
+
+#widget-horoscope li {
+	color: @colorTxtDarkGrey;
+}
+
+#horoscope-list li.active, #horoscope-list li.active a {
+	color: #000;
+}
+
+#widget-horoscope li a, #horoscope-list a {
+	display: block;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+	font-size: 1.1em;
+	text-align: center;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: auto 60px;
+	padding-top: 58px;
+}
+
+#widget-horoscope li a {
+	background-size: 50px auto;
+}
+
+.ico-aries {
+	background-image: url("@{pathMedia}/ico-horoscope-aries-1.svg");
+}
+
+.active .ico-aries {
+	background-image: url("@{pathMedia}/ico-horoscope-aries-2.svg");
+}
+
+.title-7.ico-aries {
+	background-image: url("@{pathMedia}/ico-horoscope-aries.svg");
+}
+
+.ico-taurus {
+	background-image: url("@{pathMedia}/ico-horoscope-taurus-1.svg");
+}
+
+.active .ico-taurus {
+	background-image: url("@{pathMedia}/ico-horoscope-taurus-2.svg");
+}
+
+.title-7.ico-taurus {
+	background-image: url("@{pathMedia}/ico-horoscope-taurus.svg");
+}
+
+.ico-gemini {
+	background-image: url("@{pathMedia}/ico-horoscope-gemini-1.svg");
+}
+
+.active .ico-gemini {
+	background-image: url("@{pathMedia}/ico-horoscope-gemini-2.svg");
+}
+
+.title-7.ico-gemini {
+	background-image: url("@{pathMedia}/ico-horoscope-gemini.svg");
+}
+
+.ico-cancer {
+	background-image: url("@{pathMedia}/ico-horoscope-cancer-1.svg");
+}
+
+.active .ico-cancer {
+	background-image: url("@{pathMedia}/ico-horoscope-cancer-2.svg");
+}
+
+.title-7.ico-cancer {
+	background-image: url("@{pathMedia}/ico-horoscope-cancer.svg");
+}
+
+.ico-leo {
+	background-image: url("@{pathMedia}/ico-horoscope-leo-1.svg");
+}
+
+.active .ico-leo {
+	background-image: url("@{pathMedia}/ico-horoscope-leo-2.svg");
+}
+
+.title-7.ico-leo {
+	background-image: url("@{pathMedia}/ico-horoscope-leo.svg");
+}
+
+.ico-virgo {
+	background-image: url("@{pathMedia}/ico-horoscope-virgo-1.svg");
+}
+
+.active .ico-virgo {
+	background-image: url("@{pathMedia}/ico-horoscope-virgo-2.svg");
+}
+
+.title-7.ico-virgo {
+	background-image: url("@{pathMedia}/ico-horoscope-virgo.svg");
+}
+
+.ico-libra {
+	background-image: url("@{pathMedia}/ico-horoscope-libra-1.svg");
+}
+
+.active .ico-libra {
+	background-image: url("@{pathMedia}/ico-horoscope-libra-2.svg");
+}
+
+.title-7.ico-libra {
+	background-image: url("@{pathMedia}/ico-horoscope-libra.svg");
+}
+
+.ico-scorpio {
+	background-image: url("@{pathMedia}/ico-horoscope-scorpio-1.svg");
+}
+
+.active .ico-scorpio {
+	background-image: url("@{pathMedia}/ico-horoscope-scorpio-2.svg");
+}
+
+.title-7.ico-scorpio {
+	background-image: url("@{pathMedia}/ico-horoscope-scorpio.svg");
+}
+
+.ico-sagittarius {
+	background-image: url("@{pathMedia}/ico-horoscope-sagittarius-1.svg");
+}
+
+.active .ico-sagittarius {
+	background-image: url("@{pathMedia}/ico-horoscope-sagittarius-2.svg");
+}
+
+.title-7.ico-sagittarius {
+	background-image: url("@{pathMedia}/ico-horoscope-sagittarius.svg");
+}
+
+.ico-capricorn {
+	background-image: url("@{pathMedia}/ico-horoscope-capricorn-1.svg");
+}
+
+.active .ico-capricorn {
+	background-image: url("@{pathMedia}/ico-horoscope-capricorn-2.svg");
+}
+
+.title-7.ico-capricorn {
+	background-image: url("@{pathMedia}/ico-horoscope-capricorn.svg");
+}
+
+.ico-aquarius {
+	background-image: url("@{pathMedia}/ico-horoscope-aquarius-1.svg");
+}
+
+.active .ico-aquarius {
+	background-image: url("@{pathMedia}/ico-horoscope-aquarius-2.svg");
+}
+
+.title-7.ico-aquarius {
+	background-image: url("@{pathMedia}/ico-horoscope-aquarius.svg");
+}
+
+.ico-pisces {
+	background-image: url("@{pathMedia}/ico-horoscope-pisces-1.svg");
+}
+
+.active .ico-pisces {
+	background-image: url("@{pathMedia}/ico-horoscope-pisces-2.svg");
+}
+
+.title-7.ico-pisces {
+	background-image: url("@{pathMedia}/ico-horoscope-pisces.svg");
+}

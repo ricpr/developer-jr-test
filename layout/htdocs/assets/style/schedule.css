@@ -1,0 +1,96 @@
+/* FONT FAMILY */
+/* FONT SIZE */
+/* FONT WEIGHT */
+/* COLOR PALETE */
+/* PATH */
+/* MIXINS */
+.label header {
+  margin: 0;
+}
+.title-3 {
+  margin-bottom: 0;
+}
+#my-datepicker {
+  margin: 0 15px 15px 15px;
+}
+.datepicker {
+  width: auto;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+.datepicker--day-name {
+  color: #8f8f90;
+}
+.datepicker--cell.-current- {
+  color: #f15500;
+}
+.datepicker--cell.-selected-.-focus- {
+  background: url("../media/blt-7.svg") center center no-repeat;
+  background-size: contain;
+}
+.-selected-.-focus-.datepicker--cell-day.-other-month-,
+.-selected-.-focus-.datepicker--cell-year.-other-decade- {
+  background: url("../media/blt-8.svg") center center no-repeat;
+  background-size: contain;
+}
+.datepicker--nav-title {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+.datepicker--nav-title,
+.datepicker--nav-title i {
+  color: #043f74;
+}
+.datepicker--nav-action {
+  background-size: 17px auto!important;
+}
+.datepicker--nav-action svg {
+  display: none;
+}
+.datepicker--nav-action[data-action="next"] {
+  background: url("../media/ico-arrow-right-3.png") center center no-repeat;
+}
+.datepicker--nav-action[data-action="prev"] {
+  background: url("../media/ico-arrow-left-3.png") center center no-repeat;
+}
+.card {
+  margin-right: 0;
+}
+.large.card figure {
+  width: 210px;
+  float: left;
+  margin: 0 17px 0 0;
+}
+.card > header > h4 {
+  font-size: 1.4em;
+}
+.large.card > article > h2 {
+  font-size: 3.0em;
+}
+.section-list > .highlight.card {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.section-list > header form {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.drop-list {
+  font-size: 2.2em;
+  height: 52px;
+  line-height: 52px;
+  color: #333;
+  padding-left: 10px;
+}
+.adv-2 {
+  padding: 40px 0;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+}

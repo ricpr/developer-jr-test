@@ -1,0 +1,214 @@
+/* FONT FAMILY */
+/* FONT SIZE */
+/* FONT WEIGHT */
+/* COLOR PALETE */
+/* PATH */
+/* MIXINS */
+.section-list header .title-6 {
+  margin-bottom: 0;
+}
+.section-list header {
+  margin-bottom: 10px;
+}
+#widget-timeline > header {
+  border-bottom: solid 1px #afafaf;
+  position: relative;
+  height: 60px;
+  margin-bottom: 4px;
+}
+#widget-timeline > header ul {
+  width: 850px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  align-itens: stretch;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#widget-timeline > header ul li {
+  width: 130px;
+  flex-grow: 0;
+  text-align: center;
+  border-bottom: solid 3px transparent;
+  flex-shrink: 0;
+  margin: 0 20px;
+  height: 60px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#widget-timeline > header ul li.index {
+  border-bottom: solid 3px #484848;
+}
+#widget-timeline > header ul li strong,
+#widget-timeline > header ul li var {
+  display: block;
+  color: #043f74;
+  font-weight: 700;
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+}
+#widget-timeline > header ul li strong {
+  font-size: 2.2em;
+  line-height: 1.2em;
+}
+#widget-timeline > header ul li var {
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+#widget-timeline > header > a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+#widget-timeline > article {
+  height: 123px;
+  padding-top: 4px;
+  position: relative;
+  overflow: visible;
+  border-bottom: solid 1px #afafaf;
+  margin-bottom: 53px;
+}
+#widget-timeline > article > span {
+  display: block;
+  width: 80px;
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 90%);
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#widget-timeline .flag {
+  display: block;
+  position: absolute;
+  width: 50px;
+  top: -49px;
+  left: 0;
+  height: 151px;
+  background: url("../media/timeline-flag.png") center center no-repeat;
+}
+#grid-timeline {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-bottom: 6px;
+  height: 146px;
+}
+#grid-timeline li {
+  width: 270px;
+  height: 117px;
+  margin: 0 0 0 4px;
+  padding: 0 2px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  background: url("../media/bkg-2.png") left top repeat-y, url("../media/bkg-2.png") center top repeat-y;
+  font-family: "Archivo Narrow", sans-serif;
+  position: relative;
+}
+#grid-timeline li > div {
+  position: absolute;
+  top: 44px;
+  left: 2px;
+  right: 8px;
+  height: 39px;
+  border: solid 1px #043f74;
+  padding: 6px 9px;
+  color: #565656;
+}
+#grid-timeline li > div h2 {
+  font-size: 2.2em;
+  height: 23px;
+  line-height: 23px;
+  font-weight: 700;
+}
+#grid-timeline li > div small {
+  font-size: 1.4em;
+  height: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+#grid-timeline li var {
+  display: block;
+  font-size: 1.8em;
+  width: 135px;
+  height: 32px;
+  line-height: 32px;
+  text-indent: 9px;
+  color: #6f6f6f;
+  position: absolute;
+  top: 0;
+}
+.ini {
+  left: 0;
+}
+.end {
+  left: 136px;
+}
+#widget-timeline-next {
+  right: 10px;
+  background-image: url("../media/ico-arrow-right-3.png");
+}
+#widget-timeline-prev {
+  left: 10px;
+  background-image: url("../media/ico-arrow-left-3.png");
+}
+.section-list > header form {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.drop-list {
+  font-size: 2.2em;
+  height: 52px;
+  line-height: 52px;
+  color: #333;
+  padding-left: 10px;
+  width: 240px;
+}
+.adv-2 {
+  padding: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+.program-list .adv-2 {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #ccc;
+}
+#prog-area > article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 30px;
+}
+#prog-area > article > section {
+  flex-grow: 0;
+  width: 300px;
+  border: 0;
+  padding: 0;
+}
+#prog-area > article > section.card {
+  width: 293px;
+}
+.widget-extra-block-1 header {
+  display: none;
+}
+#widget-timeline > header > a {
+  text-indent: -9999em;
+  overflow: hidden;
+  color: transparent;
+  font-size: 0;
+}

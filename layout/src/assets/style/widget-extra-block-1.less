@@ -1,0 +1,50 @@
+@import "cfg.less";
+
+.widget-extra-block-1 {
+	margin-bottom: 30px;
+}
+
+.widget-extra-block-1 > article > ul {
+	display: flex;
+	flex-flow: row;
+	align-itens: stretch;
+	justify-content: space-between;
+}
+
+.widget-extra-block-1 > article > ul li {
+	flex-grow: 0;
+}
+
+.widget-extra-block-1 > article > ul li figure {
+	position: relative;
+}
+
+.widget-extra-block-1 > article > ul li figcaption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.widget-extra-block-1 > article > ul li h2 {
+	font-size: 1.6em;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightBold;
+	padding: 8px 12px;
+	background: url("@{pathMedia}/bkg-modal.svg") center center repeat;
+}
+
+.widget-extra-block-1 > article > ul li h2 a {
+	color: #fff;
+}
+
+.widget-extra-block-1 > article > ul li h4 {
+	font-size: 1.4em;
+	font-family: @fontArchivo;
+	font-weight: @fontWeightMedium;
+	padding: 0 4px;
+	background: #dedede;
+	text-transform: uppercase;
+	margin: 0 0 4px 4px;
+	display: inline-block;
+}
